@@ -127,7 +127,6 @@ int main(){
         char** parsed = parse(input);
 
         execute(parsed);
-        wait(NULL);
 
         free(input);
         free(parsed);
